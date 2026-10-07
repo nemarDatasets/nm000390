@@ -2,3 +2,4 @@
 *_contacts.tsv
 group
 sub-*/*/*.json
+.nemar/
