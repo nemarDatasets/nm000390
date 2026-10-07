@@ -1,0 +1,31 @@
+{
+  "participant_id": {
+    "Description": "SEEG patient label sub-NN; NN is the row (1-68) of the patient in the cell arrays of the original sEEG_data.mat."
+  },
+  "source_index": {
+    "Description": "Row index (1-based) of the patient in sEEG_data.mat."
+  },
+  "n_contacts": {
+    "Description": "Number of SEEG contacts in the patient's PLV/DFA arrays."
+  },
+  "n_non_ez_contacts": {
+    "Description": "Number of contacts in the non-EZ contact mask (acceptcontHealthy)."
+  },
+  "n_ez_contacts": {
+    "Description": "Number of contacts in the EZ contact mask (acceptcontEZ)."
+  },
+  "non_ez_analysis": {
+    "Description": "HealthyEZcriteria column 1: patient selected for the non-EZ analyses.",
+    "Levels": {
+      "yes": "selected",
+      "no": "not selected"
+    }
+  },
+  "ez_analysis": {
+    "Description": "HealthyEZcriteria column 2: patient selected for the EZ analyses.",
+    "Levels": {
+      "yes": "selected",
+      "no": "not selected"
+    }
+  }
+}

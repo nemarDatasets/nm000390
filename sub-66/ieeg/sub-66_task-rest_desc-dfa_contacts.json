@@ -1,0 +1,12 @@
+{
+  "Description": "DFA exponents of this patient, one row per contact (same order as the MAT arrays), one column per frequency.",
+  "Sources": [
+    "bids::sourcedata/dryad-vdncjsxzn/sEEG_data.mat"
+  ],
+  "contact_index": {
+    "Description": "1-based contact index (order of the release arrays)."
+  },
+  "dfa_<f>Hz": {
+    "Description": "DFA scaling exponent of the amplitude envelope at centre frequency <f> Hz (values written with full float precision; n/a = NaN)."
+  }
+}

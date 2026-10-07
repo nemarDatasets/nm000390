@@ -1,0 +1,21 @@
+{
+  "Description": "Contacts of this patient (same order as the MAT arrays).",
+  "Sources": [
+    "bids::sourcedata/dryad-vdncjsxzn/sEEG_data.mat"
+  ],
+  "contact_index": {
+    "Description": "1-based contact index."
+  },
+  "parcel_code": {
+    "Description": "parcel_assign code (group/seeg/parcel_order.tsv; 0 = Unknown)."
+  },
+  "parcel_name": {
+    "Description": "Parcel name for parcel_code (Yeo/Schaefer 17-network cortical parcels and subcortical regions)."
+  },
+  "non_ez_contact": {
+    "Description": "acceptcontHealthy mask (1 = non-EZ contact accepted for analysis)."
+  },
+  "ez_contact": {
+    "Description": "acceptcontEZ mask (1 = EZ contact)."
+  }
+}

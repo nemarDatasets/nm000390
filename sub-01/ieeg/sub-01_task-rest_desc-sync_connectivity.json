@@ -1,0 +1,20 @@
+{
+  "Description": "Resting-state SEEG phase synchronization and criticality metrics of this patient: complex PLV [24 frequencies x contacts x contacts], DFA exponents [24 x contacts], contact distances, reference mask, non-EZ and EZ contact masks, parcel assignment, patient selection flags, frequencies (Hz).",
+  "Sources": [
+    "bids::sourcedata/dryad-vdncjsxzn/sEEG_data.mat"
+  ],
+  "Variables": {
+    "PLV": "PLV{row}",
+    "DFA": "DFA{row}",
+    "elec_dist": "elec_dist{row}",
+    "ref_mask": "ref_masks{row}",
+    "acceptcontHealthy": "acceptcontHealthy{row}",
+    "acceptcontEZ": "acceptcontEZ{row}",
+    "parcel_assign": "parcel_assign{row}",
+    "HealthyEZcriteria": "HealthyEZcriteria(row,:)",
+    "frequencies": "frequencies"
+  },
+  "SourceRow": 1,
+  "Repackaging": "Cells of the original arrays saved unchanged (scipy.io.savemat, MAT v5, compressed); exact round-trip.",
+  "FileFormat": "MATLAB v5 MAT"
+}

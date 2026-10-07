@@ -1,0 +1,4 @@
+1.0.0 2026-10-07
+  - Derivative (processed-data) BIDS repackaging of Dryad doi:10.5061/dryad.vdncjsxzn (version 7) for NEMAR.
+  - All 4 original files byte-for-byte under sourcedata/dryad-vdncjsxzn/.
+  - SEEG arrays split per patient (MAT + TSV, exact round-trip); MEG and simulations kept group-level.
