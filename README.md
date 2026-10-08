@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000390-blue)](https://doi.org/10.82901/nemar.nm000390)
+
 # Brain criticality predicts individual levels of inter-areal synchronization in human electrophysiological data (Fuscà, Siebenhühner, Wang et al., 2023): SEEG/MEG synchronization and DFA (derivative)
 
 **This is a processed-data (derivative) dataset.** It repackages the authors' public Dryad release
