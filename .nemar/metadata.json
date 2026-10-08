@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
-  "description": "This derivative dataset provides processed results of phase synchronization (phase-locking value) and detrended fluctuation analysis (DFA) computed from resting-state stereo-EEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants. It also includes simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included; the files repackage the authors' public Dryad release into per-patient files and tables.",
-  "methods_description": "SEEG was recorded for 10 minutes of eyes-closed rest in 68 patients. Epileptic-artifact windows were rejected, and contacts were referenced to the closest white-matter contact. Data were filtered and decomposed with 24 Morlet wavelets (2-225 Hz) to compute PLV between contact pairs and DFA exponents per contact. MEG covered 192 eyes-open resting-state sessions from 52 healthy subjects, source-reconstructed to the 400-parcel Schaefer atlas, with wPLI and DFA computed. Simulations used hierarchical Kuramoto models.",
+  "description": "This derivative dataset repackages the authors' public Dryad release of phase-synchronization and detrended fluctuation analysis (DFA) results computed from resting-state SEEG (68 drug-resistant focal epilepsy patients) and MEG (52 healthy subjects, 192 sessions). It includes per-patient complex phase-locking value matrices, DFA exponents, and contact masks, along with group-level MEG and simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included.",
+  "methods_description": "SEEG: 10 min of eyes-closed resting state recorded monopolarly at Niguarda Hospital, Milan. Epileptic-artifact windows were rejected, contacts were referenced to the closest white matter, and data were filtered with an FIR broadband filter and 50 Hz notch filters. Phase-locking value and DFA exponents were computed with 24 Morlet wavelets (2-225 Hz). MEG: eyes-open resting-state sessions recorded with a 306-channel Vectorview/Triux system, processed with tSSS and ICA, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA. Simulations used hierarchical Kuramoto models.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -57,7 +57,9 @@
       "term": "criticality"
     },
     {
-      "term": "epileptogenic zone"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
