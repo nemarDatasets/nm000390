@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
+  "description": "This derivative dataset provides processed results of phase synchronization (phase-locking value) and detrended fluctuation analysis (DFA) computed from resting-state stereo-EEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants. It also includes simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included; the files repackage the authors' public Dryad release into per-patient files and tables.",
+  "methods_description": "SEEG was recorded for 10 minutes of eyes-closed rest in 68 patients. Epileptic-artifact windows were rejected, and contacts were referenced to the closest white-matter contact. Data were filtered and decomposed with 24 Morlet wavelets (2-225 Hz) to compute PLV between contact pairs and DFA exponents per contact. MEG covered 192 eyes-open resting-state sessions from 52 healthy subjects, source-reconstructed to the 400-parcel Schaefer atlas, with wPLI and DFA computed. Simulations used hierarchical Kuramoto models.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Felix Siebenhühner": {
       "orcid": "0000-0002-2621-9145",
@@ -30,6 +35,31 @@
       "orcid": "0000-0001-9496-7391"
     }
   },
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "phase synchronization"
+    },
+    {
+      "term": "detrended fluctuation analysis"
+    },
+    {
+      "term": "criticality"
+    },
+    {
+      "term": "epileptogenic zone"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.vdncjsxzn",
@@ -78,14 +108,11 @@
       "funder_name": "Sigrid Jusélius Foundation"
     }
   ],
-  "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "3.77 GB (72 files)"
   ],
@@ -95,39 +122,8 @@
     ".md",
     ".py",
     ".tsv",
+    ".yml",
     ".zip"
   ],
-  "description": "Derivative dataset repackaging the authors' public Dryad release of phase synchronization (phase-locking value, PLV; weighted phase lag index, wPLI) and detrended fluctuation analysis (DFA) results. The results come from resting-state SEEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants, plus simulated hierarchical Kuramoto model data. The data support the finding that brain criticality, indexed by long-range temporal correlations, predicts individual levels of inter-areal synchronization. Raw recordings are not included.",
-  "methods_description": "SEEG: 10 min of eyes-closed resting state per patient, recorded monopolar with 8-15 contacts per shaft. Windows with epileptic artifacts were rejected, grey-matter contacts were referenced to the closest white-matter contact, and data were filtered with an FIR broadband filter and 50 Hz notch filters. 24 Morlet wavelets (2-225 Hz) were used to compute PLV between contact pairs and DFA exponents per contact. MEG: 192 eyes-open resting-state sessions, source-reconstructed to the 400-parcel Schaefer atlas, with wPLI and DFA computed. Simulations used hierarchical Kuramoto models.",
-  "keywords": [
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "phase synchronization"
-    },
-    {
-      "term": "detrended fluctuation analysis"
-    },
-    {
-      "term": "criticality"
-    },
-    {
-      "term": "long-range temporal correlations"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "resting state"
-    }
-  ],
-  "source_hash": "fd1cc783dbfb888132bc26ce639e82d6ec17de8a02465f4c8879eb620656a8dc"
+  "source_hash": "32b18d72ae3e10c4e5d4b349954324b2aa0838093fd41ecb21981e15441420fe"
 }
