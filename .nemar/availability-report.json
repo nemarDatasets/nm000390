@@ -1,15 +1,22 @@
 {
   "dataset_id": "nm000390",
-  "version": null,
-  "generated_at": "2026-10-08T03:01:56.764Z",
+  "version": "1.0.0",
+  "generated_at": "2026-10-13T03:01:17.756Z",
   "source": null,
   "complete": false,
   "completeness": {
-    "files_present": 72,
-    "files_declared": 0,
+    "files_present": 70,
+    "files_declared": 71,
     "bytes_present": 4047104812,
-    "bytes_declared": 0,
-    "pct_bytes": null
+    "bytes_declared": 4058287998,
+    "pct_bytes": 0.9972443587035934
   },
-  "missing": []
+  "missing": [
+    {
+      "path": "sourcedata/dryad-vdncjsxzn/MEG_data.mat",
+      "key": "SHA256E-s3387411027--61a8db3d0a771d0ecb0c7f0d12a58953e4fd6bbb3c20801fd60e30eb0689930d.mat",
+      "declared_size": 3387411027,
+      "reason": "absent"
+    }
+  ]
 }
