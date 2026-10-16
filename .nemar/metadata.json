@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
-  "description": "This derivative dataset repackages the authors' processed results of phase synchronization (phase-locking value, wPLI) and detrended fluctuation analysis (DFA) from resting-state stereo-EEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants. It also includes simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included; per-patient SEEG connectivity and DFA arrays are provided alongside group-level MEG and simulation files.",
-  "methods_description": "SEEG: 10 min of eyes-closed resting state per patient, monopolar recordings with white-matter referencing, FIR broadband and 50 Hz notch filtering, and 24 Morlet wavelets (2-225 Hz) used to compute PLV between contact pairs and DFA exponents. MEG: 192 eyes-open resting-state sessions from 52 healthy subjects, recorded with a 306-channel system, processed with tSSS and ICA, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA. Simulations used hierarchical Kuramoto models.",
+  "description": "This derivative dataset provides phase-locking value (PLV) connectivity and detrended fluctuation analysis (DFA) exponents computed from resting-state stereo-EEG recordings of 68 patients with drug-resistant focal epilepsy. It also includes group-level MEG wPLI/DFA results from 52 healthy participants and hierarchical Kuramoto model simulations. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included.",
+  "methods_description": "SEEG was recorded for 10 minutes of eyes-closed rest per patient. Epileptic artifact windows were removed and contacts were referenced to the closest white-matter contact. Signals were filtered and decomposed with 24 Morlet wavelets (2-225 Hz) to compute PLV between contact pairs and DFA exponents per contact. MEG was recorded in 192 eyes-open resting sessions, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -40,9 +40,7 @@
       "term": "stereo-EEG"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "term": "MEG"
     },
     {
       "term": "resting state"
@@ -55,6 +53,9 @@
     },
     {
       "term": "criticality"
+    },
+    {
+      "term": "epileptogenic zone"
     },
     {
       "term": "Epilepsy",
