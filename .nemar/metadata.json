@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
-  "description": "This derivative dataset repackages the authors' public Dryad release of phase-synchronization and detrended fluctuation analysis (DFA) results computed from resting-state SEEG (68 drug-resistant focal epilepsy patients) and MEG (52 healthy subjects, 192 sessions). It includes per-patient complex phase-locking value matrices, DFA exponents, and contact masks, along with group-level MEG and simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included.",
-  "methods_description": "SEEG: 10 min of eyes-closed resting state recorded monopolarly at Niguarda Hospital, Milan. Epileptic-artifact windows were rejected, contacts were referenced to the closest white matter, and data were filtered with an FIR broadband filter and 50 Hz notch filters. Phase-locking value and DFA exponents were computed with 24 Morlet wavelets (2-225 Hz). MEG: eyes-open resting-state sessions recorded with a 306-channel Vectorview/Triux system, processed with tSSS and ICA, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA. Simulations used hierarchical Kuramoto models.",
+  "title": "Fusca-2023-brain-10.1038/s41467-023-40056-9",
+  "description": "This derivative dataset repackages the authors' processed results of phase synchronization (phase-locking value, wPLI) and detrended fluctuation analysis (DFA) from resting-state stereo-EEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants. It also includes simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included; per-patient SEEG connectivity and DFA arrays are provided alongside group-level MEG and simulation files.",
+  "methods_description": "SEEG: 10 min of eyes-closed resting state per patient, monopolar recordings with white-matter referencing, FIR broadband and 50 Hz notch filtering, and 24 Morlet wavelets (2-225 Hz) used to compute PLV between contact pairs and DFA exponents. MEG: 192 eyes-open resting-state sessions from 52 healthy subjects, recorded with a 306-channel system, processed with tSSS and ICA, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA. Simulations used hierarchical Kuramoto models.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -127,5 +127,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "32b18d72ae3e10c4e5d4b349954324b2aa0838093fd41ecb21981e15441420fe"
+  "source_hash": "e4d0bf99bf9f92216cf69f71a39a708a47fd2c4d04c7a08d397b9970f06b1dd5"
 }
