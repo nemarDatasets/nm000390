@@ -1,5 +1,5 @@
 {
-  "Name": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
+  "Name": "Fusca-2023-brain-10.1038/s41467-023-40056-9",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -63,5 +63,5 @@
     "derivative"
   ],
   "DatasetDOI": "10.82901/nemar.nm000390",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
