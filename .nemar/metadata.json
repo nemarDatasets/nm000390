@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Fusca-2023-brain-10.1038/s41467-023-40056-9",
+  "title": "Brain criticality predicts individual levels of inter-areal synchronization (Fusca, Siebenhuehner, Wang et al., 2023): SEEG/MEG PLV and DFA (derivative)",
   "description": "This derivative dataset repackages the authors' processed results of phase synchronization (phase-locking value, wPLI) and detrended fluctuation analysis (DFA) from resting-state stereo-EEG of 68 drug-resistant focal epilepsy patients and MEG of 52 healthy participants. It also includes simulated hierarchical Kuramoto model data. The data support the finding that brain criticality predicts individual levels of inter-areal synchronization. Raw recordings are not included; per-patient SEEG connectivity and DFA arrays are provided alongside group-level MEG and simulation files.",
   "methods_description": "SEEG: 10 min of eyes-closed resting state per patient, monopolar recordings with white-matter referencing, FIR broadband and 50 Hz notch filtering, and 24 Morlet wavelets (2-225 Hz) used to compute PLV between contact pairs and DFA exponents. MEG: 192 eyes-open resting-state sessions from 52 healthy subjects, recorded with a 306-channel system, processed with tSSS and ICA, source-reconstructed to the 400-parcel Schaefer atlas, and analyzed with wPLI and DFA. Simulations used hierarchical Kuramoto models.",
   "license": "CC0-1.0",
@@ -127,5 +127,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "e4d0bf99bf9f92216cf69f71a39a708a47fd2c4d04c7a08d397b9970f06b1dd5"
+  "source_hash": "3ec15890ccd2db93f298117a5b90f4f08b993d8e6ab9b1f693be77eb17eb00de"
 }
